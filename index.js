@@ -119,10 +119,10 @@ Baby.prototype.play = function(){
 /* 
   TASK 4
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. When using explicit binding we want the function to pass exactly what we tell 'this' is while using the other dot methods 
+  2. If I want to have the function pass the item one by one and to automatically invoke it, I'd use .call
+  3. Similar to .call is .apply. The only difference being that instead of padding the item one by one, .apply does the whole item as an array
+  4. With bind we can go through the item passed but instead of invoking it immediately it sends it back in a new function
 */
 
 
